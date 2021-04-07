@@ -1,0 +1,16 @@
+<!-- EJS file hand coded by Janifer Cheng March 2021 as part of the coursework from "The Ultimate MySQL Bootcamp"  taught by Colt Steele on Udemy.  Permission for publication of this work is given by the instructor to Janifer Cheng for portfolio use. -->
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+<link rel="stylesheet" href="/app.css"> 
+<!-- links the above css to this doc -->
+
+<div class="flex-container">
+    <div class="container">
+        <h1>JOIN US</h1>
+        <p class="lead">Enter your email to join <strong><%= count %></strong> others on our waitlist. We are 100% not a cult. </p>
+        <form method="POST" action='/register'>
+            <input type="text" name="email" class="form" placeholder="Enter Your Email">
+            <button>Join Now</button>
+        </form>
+    </div>
+</div>
